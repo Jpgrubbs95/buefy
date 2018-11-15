@@ -48,7 +48,8 @@
                                 icon="chevron-left"
                                 :pack="iconPack"
                                 both
-                                type="is-primary is-clickable"/>
+                                type="is-primary is-clickable"
+                                aria-hidden="true"/>
                         </a>
                         <a
                             v-show="!isLastMonth && !disabled"
@@ -64,7 +65,8 @@
                                 icon="chevron-right"
                                 :pack="iconPack"
                                 both
-                                type="is-primary is-clickable"/>
+                                type="is-primary is-clickable"
+                                aria-hidden="true"/>
                         </a>
                         <div class="pagination-list">
                             <b-field>
