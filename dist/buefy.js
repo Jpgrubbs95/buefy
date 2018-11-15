@@ -4896,7 +4896,6 @@ var _components;
 //
 //
 //
-//
 
 
 
@@ -6571,7 +6570,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "role": "button",
       "href": "#",
-      "disabled": _vm.disabled
+      "disabled": _vm.disabled,
+      "ariaHidden": "true"
     },
     on: {
       "click": function($event) {
@@ -6593,8 +6593,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "icon": "chevron-left",
       "pack": _vm.iconPack,
       "both": "",
-      "type": "is-primary is-clickable",
-      "aria-hidden": "true"
+      "type": "is-primary is-clickable"
     }
   })], 1) : _vm._e(), _vm._v(" "), _c('a', {
     directives: [{
@@ -6607,7 +6606,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "role": "button",
       "href": "#",
-      "disabled": _vm.disabled
+      "disabled": _vm.disabled,
+      "aria-hidden": "true"
     },
     on: {
       "click": function($event) {
@@ -6629,8 +6629,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "icon": "chevron-right",
       "pack": _vm.iconPack,
       "both": "",
-      "type": "is-primary is-clickable",
-      "aria-hidden": "true"
+      "type": "is-primary is-clickable"
     }
   })], 1), _vm._v(" "), _c('div', {
     staticClass: "pagination-list"

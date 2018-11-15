@@ -42,14 +42,14 @@
                             :disabled="disabled"
                             @click.prevent="decrementMonth"
                             @keydown.enter.prevent="decrementMonth"
-                            @keydown.space.prevent="decrementMonth">
+                            @keydown.space.prevent="decrementMonth"
+                            ariaHidden="true">
 
                             <b-icon
                                 icon="chevron-left"
                                 :pack="iconPack"
                                 both
-                                type="is-primary is-clickable"
-                                aria-hidden="true"/>
+                                type="is-primary is-clickable"/>
                         </a>
                         <a
                             v-show="!isLastMonth && !disabled"
@@ -59,14 +59,13 @@
                             :disabled="disabled"
                             @click.prevent="incrementMonth"
                             @keydown.enter.prevent="incrementMonth"
-                            @keydown.space.prevent="incrementMonth">
-
+                            @keydown.space.prevent="incrementMonth"
+                            aria-hidden="true">
                             <b-icon
                                 icon="chevron-right"
                                 :pack="iconPack"
                                 both
-                                type="is-primary is-clickable"
-                                aria-hidden="true"/>
+                                type="is-primary is-clickable"/>
                         </a>
                         <div class="pagination-list">
                             <b-field>
