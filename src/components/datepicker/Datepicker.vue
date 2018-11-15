@@ -43,7 +43,7 @@
                             @click.prevent="decrementMonth"
                             @keydown.enter.prevent="decrementMonth"
                             @keydown.space.prevent="decrementMonth"
-                            ariaHidden="true">
+                            aria-label="Previous month">
 
                             <b-icon
                                 icon="chevron-left"
@@ -60,7 +60,7 @@
                             @click.prevent="incrementMonth"
                             @keydown.enter.prevent="incrementMonth"
                             @keydown.space.prevent="incrementMonth"
-                            aria-hidden="true">
+                            aria-label="Next month">
                             <b-icon
                                 icon="chevron-right"
                                 :pack="iconPack"

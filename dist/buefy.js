@@ -6571,7 +6571,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "role": "button",
       "href": "#",
       "disabled": _vm.disabled,
-      "ariaHidden": "true"
+      "aria-label": "Previous month"
     },
     on: {
       "click": function($event) {
@@ -6607,7 +6607,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "role": "button",
       "href": "#",
       "disabled": _vm.disabled,
-      "aria-hidden": "true"
+      "aria-label": "Next month"
     },
     on: {
       "click": function($event) {
